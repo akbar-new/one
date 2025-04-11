@@ -10,7 +10,7 @@
   <!-- Hero Section -->
   <header class="hero">
     <div class="hero-content">
-      <h1>Welcome to Home Appliances</h1>
+      <h1>Welcome to Devops</h1>
       <p>Transforming spaces into your Akbar home</p>
       <a href="#contact" class="btn">Get Started</a>
     </div>
