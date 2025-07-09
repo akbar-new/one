@@ -10,7 +10,7 @@
   <!-- Hero Section -->
   <header class="hero">
     <div class="hero-content">
-      <h1>Welcome to my Home</h1>
+      <h1>Welcome to my munna</h1>
       <p>Transforming spaces into your home</p>
       <a href="#contact" class="btn">Get Started</a>
     </div>
@@ -22,7 +22,7 @@
     <div class="service-cards">
       <div class="card">
         <img src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2022/04/movie-2-1651254449.jpg">
-        <h3>Akbar Design</h3>
+        <h3>Munna Design</h3>
         <p>We create beautiful and functional living spaces tailored to your needs.</p>
       </div>
       <div class="card">
