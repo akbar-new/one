@@ -10,8 +10,8 @@
   <!-- Hero Section -->
   <header class="hero">
     <div class="hero-content">
-      <h1>Welcome to Devops</h1>
-      <p>Transforming spaces into your Akbar home</p>
+      <h1>Welcome to my Home</h1>
+      <p>Transforming spaces into your home</p>
       <a href="#contact" class="btn">Get Started</a>
     </div>
   </header>
@@ -62,7 +62,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2023 Interior Design Studio. All rights reserved.</p>
+    <p>&copy; 2023 Interior Design Studio. All rights reserved and take.</p>
   </footer>
 
   <script src="script.js"></script>
