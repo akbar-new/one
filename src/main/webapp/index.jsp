@@ -1,70 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SRCAS</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop - Your Electronics Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="hero-content">
-      <h1>Welcome to my munna</h1>
-      <p>Transforming spaces into your home</p>
-      <a href="#contact" class="btn">Get Started</a>
+    <header>
+        <div class="logo">
+            <h1>TechShop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#televisions">Televisions</a></li>
+                <li><a href="#laptops">Laptops</a></li>
+                <li><a href="#accessories">Accessories</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to TechShop</h2>
+                <p>Your one-stop shop for all electronics needs</p>
+                <button class="shop-now">Shop Now</button>
+            </div>
+        </section>
+
+        <section id="televisions" class="product-section">
+            <h2 class="section-title">Televisions</h2>
+            <div class="products-container" id="tv-container">
+                <!-- TV products will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="laptops" class="product-section">
+            <h2 class="section-title">Laptops</h2>
+            <div class="products-container" id="laptop-container">
+                <!-- Laptop products will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="accessories" class="product-section">
+            <h2 class="section-title">Accessories</h2>
+            <div class="products-container" id="accessory-container">
+                <!-- Accessory products will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About TechShop</h3>
+                <p>We provide the latest electronics at competitive prices with excellent customer service.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#televisions">Televisions</a></li>
+                    <li><a href="#laptops">Laptops</a></li>
+                    <li><a href="#accessories">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Silicon Valley</p>
+                <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@techshop.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 TechShop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="cart-modal" id="cartModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Your Shopping Cart</h2>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items will be displayed here -->
+            </div>
+            <div class="cart-total">
+                <p>Total: $<span id="cartTotal">0.00</span></p>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
     </div>
-  </header>
 
-  <!-- Services Section -->
-  <section class="services" id="services">
-    <h2>Our Services</h2>
-    <div class="service-cards">
-      <div class="card">
-        <img src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2022/04/movie-2-1651254449.jpg">
-        <h3>Munna Design</h3>
-        <p>We create beautiful and functional living spaces tailored to your needs.</p>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80" alt="Commercial Design">
-        <h3>Commercial Design</h3>
-        <p>Designing workspaces that inspire productivity and creativity.</p>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80" alt="Consultation">
-        <h3>Consultation</h3>
-        <p>Expert advice to help you make the best design decisions.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Gallery Section -->
-  <section class="gallery" id="gallery">
-    <h2>Our Work</h2>
-    <div class="gallery-images">
-      <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Design 1">
-      <img src="https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Design 2">
-      <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Design 3">
-      <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Design 4">
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <form id="contact-form">
-      <input type="text" id="name" placeholder="Your Name" required>
-      <input type="email" id="email" placeholder="Your Email" required>
-      <textarea id="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2023 Interior Design Studio. All rights reserved and take.</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
