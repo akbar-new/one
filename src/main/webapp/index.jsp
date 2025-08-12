@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<htm lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -794,7 +794,7 @@
                     <li class="dropdown">
                         <a href="#"><em class="fas fa-th-large"></em> Categories <em class="fas fa-chevron-down"></em></a>
                         <div class="dropdown-content">
-                            <a href="#"><i class="fas fa-mobile-alt"></i> Smartphones</a>
+                            <a href="#"><em class="fas fa-mobile-alt"></em> Smartphones</a>
                             <a href="#"><i class="fas fa-laptop"></i> Laptops</a>
                             <a href="#"><i class="fas fa-tshirt"></i> Clothing</a>
                             <a href="#"><i class="fas fa-headphones"></i> Gadgets</a>
