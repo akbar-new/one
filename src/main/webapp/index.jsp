@@ -786,7 +786,7 @@
     <!-- Header -->
     <header>
         <div class="container header-container">
-            <a href="#" class="logo">Nexus<span>Shop</span></a>
+            <a href="#" class="logo">Munna<span>Shop</span></a>
             
             <nav id="mainNav">
                 <ul>
@@ -1073,7 +1073,7 @@
         <div class="container">
             <div class="footer-container">
                 <div class="footer-col">
-                    <h3>NexusShop</h3>
+                    <h3>MunnaShop</h3>
                     <p>Your one-stop destination for all the latest products in technology, fashion, and lifestyle.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -1121,7 +1121,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2023 NexusShop. All rights reserved.</p>
+                <p>&copy; 2023 MunnaShop. All rights reserved.</p>
             </div>
         </div>
     </footer>
